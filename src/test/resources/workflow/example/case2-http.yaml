@@ -1,0 +1,21 @@
+request:
+  url : https://www.kuaidi100.com/query
+  method: GET
+  params:
+    type:  shunfeng
+    postid: 11111111111
+  body: ''
+  headers:
+    hk: hv
+validation:
+  expressions:
+    - path: message
+      value: ok
+responseParam:
+  expressions:
+    - path: nu
+      value: postid
+waitTime: 3
+caseType: http
+desc: check post id
+

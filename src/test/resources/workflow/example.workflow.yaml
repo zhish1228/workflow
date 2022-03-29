@@ -1,0 +1,8 @@
+name: example
+steps:
+  - test: case1-http.yaml
+#    script: Step.java
+  - test: case2-http.yaml
+tags:
+  - example
+desc: workflow example
